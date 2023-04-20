@@ -1,0 +1,116 @@
+.header-wrapper {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  z-index: 1;
+  flex: 1;
+}
+.header-wrapper .warning {
+  color: black !important;
+}
+.header-wrapper .my-photo {
+  caret-color: transparent;
+}
+.header-wrapper h1 {
+  caret-color: transparent;
+}
+.header-wrapper .header-one-div {
+  display: flex;
+  text-align: center !important;
+  justify-content: center !important;
+  align-content: center !important;
+}
+.btn-info {
+  background-color: transparent !important;
+  z-index: 1000 !important;
+}
+.header-wrapper .btn .btn-warning {
+  z-index: 1000 !important;
+}
+.header-wrapper .group-buttons {
+  margin-top: 20px;
+}
+.header-wrapper .typed-text {
+  caret-color: transparent;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #730bd4 !important;
+}
+.header-wrapper .photo-container {
+  background-image: url("../assets/blob.svg") !important;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 375px),
+  only screen and (max-device-width: 375px) {
+  .header-wrapper .my-photo {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    width: 110px !important;
+  }
+  .header-wrapper {
+    height: 100vh !important;
+  }
+  .header-wrapper .photo-container {
+    background-image: none !important ;
+    background-color: transparent !important;
+  }
+}
+/*other phones */
+
+@media only screen and (max-width: 485px) and (min-width: 365px) {
+  .header-wrapper .my-photo {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    width: 180px;
+  }
+  .header-wrapper {
+    height: 100vh;
+  }
+  .header-wrapper .photo-container {
+    background-image: none !important ;
+    background-color: transparent !important;
+  }
+}
+
+/*tablets*/
+
+@media only screen and (max-width: 750px) and (min-width: 540px) {
+  .header-wrapper .my-photo {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    width: 170px;
+    background-image: none !important;
+  }
+}
+
+@media only screen and (max-width: 912px) and (min-width: 768px) {
+  .header-wrapper .my-photo {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    width: 250px;
+    background-image: none !important;
+  }
+  .header-wrapper {
+    height: 80vh;
+  }
+  .header-wrapper .photo-container {
+    background-image: none !important ;
+    background-color: transparent !important;
+  }
+}
+@media only screen and (max-width: 539px) and (min-width: 486px) {
+  .header-wrapper .my-photo {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    width: 240px;
+    background-image: none !important;
+  }
+}
+@media only screen and (max-width: 1600px) and (min-width: 460px) {
+  .header-wrapper .photo-container {
+    background-image: none !important ;
+    background-color: transparent !important;
+  }
+}

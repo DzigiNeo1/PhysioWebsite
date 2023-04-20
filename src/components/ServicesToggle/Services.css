@@ -1,0 +1,172 @@
+.services-container {
+  height: 100vh !important;
+  background-color: white;
+}
+.services-container h1 {
+  font-family: "Gilda Display", serif;
+  font-size: 80px !important;
+  caret-color: transparent;
+}
+.services-container .services-photos {
+  border-radius: 50% !important;
+  width: 35%;
+  caret-color: transparent;
+}
+
+.services-container .services-photos:hover {
+  transform: scale(1.2);
+}
+
+.row-for-photos {
+  padding-left: 15px !important;
+  background-image: url("../../assets/massage-svgrepo-com.svg");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+}
+.services-container img {
+  border-radius: 50%;
+}
+.row-for-text {
+  font-family: "Gilda Display", serif;
+  font-size: 20px;
+}
+.svg-services {
+  width: 150px !important;
+}
+/* iphone SE, galaxy S8+ */
+@media only screen and (max-width: 375px),
+  only screen and (max-device-width: 375px) {
+  .services-container {
+    height: 90vh !important;
+  }
+  .services-photos {
+    width: 100px;
+    height: 100px;
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .texts {
+    display: none !important;
+  }
+  .services-container h1 {
+    font-size: 40px !important;
+    margin-top: 0.5px !important;
+  }
+  .services-container .services-photos {
+    opacity: 0 !important;
+  }
+
+  .services-container .row-for-text {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+/* resto of mobile */
+@media only screen and (max-width: 485px) and (min-width: 385px) {
+  .services-container {
+    height: 90vh !important;
+  }
+  .services-photos {
+    width: 100px;
+    height: 100px;
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .texts {
+    display: none !important;
+  }
+  .services-container h1 {
+    font-size: 40px !important;
+    margin-top: 0.5px !important;
+  }
+  .services-container .services-photos {
+    opacity: 0 !important;
+  }
+
+  .services-container .row-for-text {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+
+/* other phones*/
+
+@media only screen and (max-width: 485px) and (min-width: 376px) {
+  .services-container h1 {
+    font-size: 40px !important;
+    margin-top: 0.5px !important;
+  }
+  .services-container {
+    height: 80vh !important;
+  }
+  .texts {
+    opacity: 0 !important;
+  }
+}
+
+/*tablets*/
+
+@media only screen and (max-width: 750px) and (min-width: 540px) {
+  .services-container h1 {
+    font-size: 40px !important;
+    margin-top: 0.5px !important;
+  }
+  .services-container {
+    height: 100vh !important;
+  }
+  .services-container .services-photos {
+    opacity: 0 !important;
+  }
+  .texts {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 912px) and (min-width: 768px) {
+  .services-container h1 {
+    font-size: 40px !important;
+    margin-top: 0.5px !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0.5 !important;
+  }
+}
+@media only screen and (max-width: 1096px) and (min-width: 740px) {
+  .texts {
+    font-size: 17px !important;
+  }
+}
+@media only screen and (max-width: 767px) and (min-width: 750px) {
+  .services-container .services-photos {
+    opacity: 0 !important;
+  }
+  .services-container {
+    height: 110vh !important;
+  }
+  .texts {
+    opacity: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 539px) and (min-width: 486px) {
+  .services-container {
+    height: 75vh !important;
+  }
+  .services-photos {
+    width: 100px;
+    height: 100px;
+    display: flex !important;
+    flex-direction: row !important;
+  }
+  .texts {
+    display: none !important;
+  }
+  .services-container h1 {
+    font-size: 40px !important;
+    margin-top: 0.5px !important;
+  }
+  .services-container .services-photos {
+    opacity: 0 !important;
+  }
+}

@@ -1,0 +1,42 @@
+.copyright {
+  cursor: pointer;
+  font-family: "Caveat", cursive;
+  font-size: 30px;
+  caret-color: transparent;
+  border-bottom: none !important;
+}
+@media only screen and (max-width: 375px),
+  only screen and (max-device-width: 375px) {
+  .footer {
+    margin-top: 290px !important;
+  }
+}
+/* other phones*/
+@media only screen and (max-width: 375px) and (min-width: 200px) {
+  .footer {
+    margin-top: 370px !important;
+  }
+}
+@media only screen and (max-width: 485px) and (min-width: 385px) {
+  .footer {
+    margin-top: 170px !important;
+  }
+}
+
+@media only screen and (max-width: 750px) and (min-width: 540px) {
+  .footer {
+    margin-top: 210px !important;
+  }
+}
+
+@media only screen and (max-width: 912px) and (min-width: 768px) {
+  .footer {
+    margin-top: none !important;
+    padding-top: none !important;
+  }
+}
+@media only screen and (max-width: 539px) and (min-width: 486px) {
+  .footer {
+    margin-top: 200px !important;
+  }
+}

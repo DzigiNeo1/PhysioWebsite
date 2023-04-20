@@ -1,0 +1,51 @@
+@import url("https://rsms.me/inter/inter.css");
+
+main {
+  display: flex;
+}
+
+aside {
+  background-color: #c4a8ff;
+  width: 18.75rem;
+  height: 5vh;
+  border-radius: 2% !important;
+}
+.container1 {
+  padding: 0 !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: row !important;
+  gap: 8px;
+}
+.container a {
+  display: flex;
+  flex-direction: column !important;
+  color: #f9fafb;
+  text-decoration: none;
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+  caret-color: transparent;
+  border: none;
+  padding: 0.2rem 1.5rem;
+  background-color: transparent;
+  font-size: 25px;
+}
+.links-style {
+  text-decoration: none;
+  align-items: center !important;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 22px;
+  color: #d16ba5 !important;
+  text-decoration: none !important;
+  margin-left: 3px !important;
+  border-bottom: 1px solid transparent;
+  caret-color: transparent;
+}
+
+.links-style:hover {
+  border-bottom: 1px solid #d16ba5;
+}

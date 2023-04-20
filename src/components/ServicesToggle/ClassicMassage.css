@@ -1,0 +1,128 @@
+.main {
+  caret-color: transparent;
+  background: linear-gradient(
+    to right,
+    rgb(238, 240, 225) 0%,
+    rgb(241, 243, 229) 50%,
+    rgb(241, 243, 229) 50%,
+    rgb(241, 243, 229) 100%
+  ) !important;
+}
+.main img {
+  border-radius: 20%;
+}
+.main .photos {
+  width: 40% !important;
+}
+.text-div {
+  text-align: center;
+  width: 50%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 22px;
+  flex: 1;
+}
+.main img:nth-child(1) {
+  margin-top: 5px !important;
+  box-shadow: 10px -10px rgb(338, 340, 225);
+}
+.main img:nth-child(2) {
+  box-shadow: -10px 10px rgb(338, 340, 225);
+}
+.main2 {
+  justify-content: center;
+  display: flex;
+}
+.accordion {
+  caret-color: transparent;
+  background: linear-gradient(
+    to right,
+    rgb(238, 240, 225) 0%,
+    rgb(241, 243, 229) 50%,
+    rgb(241, 243, 229) 50%,
+    rgb(241, 243, 229) 100%
+  ) !important;
+}
+.accordion-item {
+  caret-color: transparent;
+  background: linear-gradient(
+    to right,
+    rgb(238, 240, 225) 0%,
+    rgb(241, 243, 229) 50%,
+    rgb(241, 243, 229) 50%,
+    rgb(241, 243, 229) 100%
+  ) !important;
+}
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.125);
+}
+.accordion-button {
+  caret-color: transparent;
+  background: linear-gradient(
+    to right,
+    rgb(238, 240, 225) 0%,
+    rgb(241, 243, 229) 50%,
+    rgb(241, 243, 229) 50%,
+    rgb(241, 243, 229) 100%
+  ) !important;
+}
+.headerbtn:active {
+  color: black !important;
+}
+.collapseOne:active {
+  color: black !important;
+}
+.main h1 {
+  font-family: "Caveat", cursive;
+  border-bottom: 1px dotted black;
+}
+
+@media screen and (max-width: 980px) {
+  .second-photo {
+    border-top: 2px dotted black !important;
+  }
+}
+@media only screen and (max-device-width: 375px) {
+  .main .photos {
+    width: 400px !important;
+  }
+  .photos {
+    width: 400px !important;
+  }
+}
+
+@media only screen and (max-width: 485px) and (min-width: 385px) {
+  .main .photos {
+    width: 400px !important;
+  }
+  .photos {
+    width: 400px !important;
+  }
+}
+.go-back-button {
+  width: 140px !important;
+}
+@media only screen and (max-width: 384px) and (min-width: 376px) {
+  .main .photos {
+    width: 400px !important;
+  }
+  .photos {
+    width: 400px !important;
+  }
+}
+@media only screen and (max-width: 537px) and (min-width: 486px) {
+  .main .photos {
+    width: 400px !important;
+  }
+  .photos {
+    width: 400px !important;
+  }
+}
+@media only screen and (max-width: 750px) and (min-width: 538px) {
+  .main .photos {
+    width: 200px !important;
+  }
+  .photos {
+    width: 200px !important;
+  }
+}

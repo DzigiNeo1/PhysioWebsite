@@ -1,0 +1,162 @@
+.about-me {
+  height: 100vh !important;
+  caret-color: transparent;
+  background-color: white;
+}
+
+.about-me h1 {
+  font-family: "Gilda Display", serif;
+  font-size: 80px !important;
+}
+
+.div-wrapper-h4 {
+  font-family: "Gilda Display", serif;
+  font-size: 30px !important;
+  word-spacing: 5px;
+}
+
+.about-me .container-wrap {
+  display: flex !important;
+  justify-content: space- !important;
+}
+.netflix {
+  color: rgb(197, 9, 9) !important;
+}
+@media only screen and (max-width: 384px) and (min-width: 274px) {
+  .about-me {
+    height: 70vh !important;
+    caret-color: transparent;
+    background-color: white;
+  }
+  .about-me .bike,
+  .girl {
+    width: 140px !important;
+    height: 140px !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-self: end;
+  }
+  .about-me p {
+    font-size: 14px !important;
+  }
+  .about-me h1 {
+    font-size: 40px !important;
+    padding-bottom: 0px !important;
+    padding-top: 5px !important;
+  }
+}
+@media only screen and (max-width: 425px) and (min-width: 385px) {
+  .about-me {
+    height: 100vh !important;
+    caret-color: transparent;
+    background-color: white;
+  }
+  .about-me .bike,
+  .girl {
+    width: 180px !important;
+    height: 180px !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-self: end;
+  }
+  .about-me p {
+    font-size: 10px !important;
+  }
+  .about-me h1 {
+    font-size: 40px !important;
+    padding-bottom: 0px !important;
+    padding-top: 5px !important;
+  }
+}
+/* other phones*/
+@media only screen and (max-width: 485px) and (min-width: 385px) {
+  .about-me .bike,
+  .girl {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: end;
+  }
+  .about-me h1 {
+    font-size: 38px !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .about-me p {
+    font-size: 22px !important;
+  }
+}
+
+/*tablets*/
+
+@media only screen and (max-width: 750px) and (min-width: 540px) {
+  .about-me h1 {
+    font-size: 48px !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .about-me .bike,
+  .girl {
+    width: 220px !important;
+    height: 210px !important;
+  }
+  .about-me {
+    height: 100vh !important;
+  }
+  .about-me p {
+    font-size: 18px !important;
+  }
+}
+
+@media only screen and (max-width: 912px) and (min-width: 768px) {
+  .about-me h1 {
+    font-size: 58px !important;
+  }
+  .about-me p {
+    font-size: 25px !important;
+  }
+  .about-me .bike,
+  .girl {
+    width: 210px;
+    height: 210px;
+  }
+}
+@media only screen and (max-width: 1588px) and (min-width: 913px) {
+  .about-me .bike {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+@media only screen and (max-width: 833px) and (min-width: 744px) {
+  .about-me .bike {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .about-me .girl {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+@media only screen and (max-width: 539px) and (min-width: 486px) {
+  .about-me .bike,
+  .girl {
+    width: 230px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: end;
+  }
+  .about-me h1 {
+    font-size: 38px !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .about-me p {
+    font-size: 22px !important;
+  }
+}
