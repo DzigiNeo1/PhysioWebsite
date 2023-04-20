@@ -37,7 +37,7 @@ const About = () => {
       >
         <h1 className="d-flex justify-content-center row p-5">So, who am I?</h1>
         <div className="row d-flex container-wrap">
-          <div className="col-md-3 d-flex div-wrapper-h4 justify-content-center vgirl ">
+          <div className="col-md-3 d-flex div-wrapper-h4 justify-content-center girl ">
             <motion.img
               src={photoSvg}
               ref={ref}

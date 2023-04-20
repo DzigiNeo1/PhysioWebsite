@@ -31,12 +31,7 @@
 .header-wrapper .group-buttons {
   margin-top: 20px;
 }
-.header-wrapper .typed-text {
-  caret-color: transparent;
-  font-size: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: #730bd4 !important;
-}
+
 .header-wrapper .photo-container {
   background-image: url("../assets/blob.svg") !important;
   background-repeat: no-repeat;
