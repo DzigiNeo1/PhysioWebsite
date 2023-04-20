@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import Typed from "react-typed";
+
 import photo from "../assets/Ljubicaphoto.jpg";
 import { motion } from "framer-motion";
 
@@ -21,11 +21,6 @@ const Home = () => {
       >
         <div className="col-md-7 justify-content-center align-items-center d-flex">
           <div className="header-one-div row d-flex p-5 m-0">
-            <Typed
-              className="typed-text"
-              strings={["Hello, I am Ljubica Simic a massage therapist"]}
-              typeSpeed={50}
-            />
             <h1 className="row d-flex align-self-center">
               Stress, headache, anxiety, toxins, pain, depression, muscle aches.
               Let it all go with massage
