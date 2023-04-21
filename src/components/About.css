@@ -160,3 +160,22 @@
     font-size: 22px !important;
   }
 }
+@media only screen and (max-width: 375px) and (min-width: 0px) { 
+  .about-me .bike,
+  .girl {
+    width: 230px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: end;
+  }
+  .about-me h1 {
+    font-size: 28px !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .about-me p {
+    font-size: 15px !important;
+  }
+}

@@ -35,8 +35,7 @@
   width: 150px !important;
 }
 /* iphone SE, galaxy S8+ */
-@media only screen and (max-width: 375px),
-  only screen and (max-device-width: 375px) {
+@media only screen and (max-width: 484px) and (min-width: 376px) {
   .services-container {
     height: 90vh !important;
   }
@@ -168,5 +167,16 @@
   }
   .services-container .services-photos {
     opacity: 0 !important;
+  }
+}
+@media only screen and (max-width: 375px) and (min-width: 0px) {
+  .texts {
+    display: none !important;
+  }
+  .services-container .services-photos {
+    opacity: 0 !important;
+  }
+  .services-container {
+    height: 75vh !important;
   }
 }
