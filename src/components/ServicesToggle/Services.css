@@ -107,7 +107,7 @@
 
 /*tablets*/
 
-@media only screen and (max-width: 750px) and (min-width: 540px) {
+@media only screen and (max-width: 670px) and (min-width: 540px) {
   .services-container h1 {
     font-size: 40px !important;
     margin-top: 0.5px !important;
@@ -178,5 +178,20 @@
   }
   .services-container {
     height: 75vh !important;
+  }
+}
+@media only screen and (max-width:  767px) and (min-width:670px) { 
+  .services-container h1 {
+    font-size: 40px !important;
+    margin-top: 0.5px !important;
+  }
+  .services-container {
+    height: 110vh !important;
+  }
+  .services-container .services-photos {
+    opacity: 0 !important;
+  }
+  .texts {
+    display: none !important;
   }
 }

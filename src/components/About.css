@@ -112,7 +112,7 @@
   }
 }
 
-@media only screen and (max-width: 912px) and (min-width: 768px) {
+@media only screen and (max-width: 912px) and (min-width: 751px) {
   .about-me h1 {
     font-size: 58px !important;
   }
@@ -144,8 +144,8 @@
 @media only screen and (max-width: 539px) and (min-width: 486px) {
   .about-me .bike,
   .girl {
-    width: 230px;
-    height: 230px;
+    width: 210px;
+    height: 210px;
     display: flex;
     flex-direction: column;
     justify-content: center;
