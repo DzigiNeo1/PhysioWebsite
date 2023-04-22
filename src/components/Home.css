@@ -37,15 +37,14 @@
   background-repeat: no-repeat;
 }
 
-@media only screen and (max-width: 375px),
-  only screen and (max-device-width: 375px) {
+@media only screen and (max-width: 365px) and (min-width: 0px) {
   .header-wrapper .my-photo {
     margin-top: 0 !important;
     padding-top: 0 !important;
-    width: 110px !important;
+    width: 8em !important;
   }
   .header-wrapper {
-    height: 100vh !important;
+    height: auto !important;
   }
   .header-wrapper .photo-container {
     background-image: none !important ;
@@ -54,14 +53,14 @@
 }
 /*other phones */
 
-@media only screen and (max-width: 485px) and (min-width: 365px) {
+@media only screen and (max-width: 540px) and (min-width: 365px) {
   .header-wrapper .my-photo {
     margin-top: 0 !important;
     padding-top: 0 !important;
-    width: 180px;
+    width: 10em;
   }
   .header-wrapper {
-    height: 100vh;
+    height: auto;
   }
   .header-wrapper .photo-container {
     background-image: none !important ;
@@ -75,7 +74,7 @@
   .header-wrapper .my-photo {
     margin-top: 0 !important;
     padding-top: 0 !important;
-    width: 170px;
+    width: 12em;
     background-image: none !important;
   }
 }
@@ -95,14 +94,7 @@
     background-color: transparent !important;
   }
 }
-@media only screen and (max-width: 539px) and (min-width: 486px) {
-  .header-wrapper .my-photo {
-    margin-top: 0 !important;
-    padding-top: 0 !important;
-    width: 240px;
-    background-image: none !important;
-  }
-}
+
 @media only screen and (max-width: 1600px) and (min-width: 460px) {
   .header-wrapper .photo-container {
     background-image: none !important ;

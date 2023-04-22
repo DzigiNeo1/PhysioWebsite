@@ -49,7 +49,7 @@ const Home = () => {
         </div>
         <div className="col-md-5 photo-container  justify-content-center align-items-center d-flex blobsvg">
           <motion.div
-            className="box"
+            className="box d-lex"
             initial={{ opacity: 0, scale: 0.1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{
@@ -62,7 +62,7 @@ const Home = () => {
             <img
               alt="me"
               src={photo}
-              className="rounded my-photo"
+              className="rounded my-photo d-flex"
               width="300px"
             />
           </motion.div>

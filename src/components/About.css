@@ -22,9 +22,33 @@
 .netflix {
   color: rgb(197, 9, 9) !important;
 }
+@media only screen and (max-width: 274px) and (min-width: 0px) {
+  .about-me {
+    height: auto !important;
+    caret-color: transparent;
+    background-color: white;
+  }
+  .about-me .bike,
+  .girl {
+    width: 230px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: end;
+  }
+  .about-me h1 {
+    font-size: 28px !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .about-me p {
+    font-size: 15px !important;
+  }
+}
 @media only screen and (max-width: 384px) and (min-width: 274px) {
   .about-me {
-    height: 70vh !important;
+    height: auto !important;
     caret-color: transparent;
     background-color: white;
   }
@@ -48,7 +72,7 @@
 }
 @media only screen and (max-width: 425px) and (min-width: 385px) {
   .about-me {
-    height: 100vh !important;
+    height: auto !important;
     caret-color: transparent;
     background-color: white;
   }
@@ -62,7 +86,7 @@
     align-self: end;
   }
   .about-me p {
-    font-size: 10px !important;
+    font-size: 15px !important;
   }
   .about-me h1 {
     font-size: 40px !important;
@@ -71,7 +95,12 @@
   }
 }
 /* other phones*/
-@media only screen and (max-width: 485px) and (min-width: 385px) {
+@media only screen and (max-width: 485px) and (min-width: 425px) {
+  .about-me {
+    height: auto !important;
+    caret-color: transparent;
+    background-color: white;
+  }
   .about-me .bike,
   .girl {
     width: 150px;
@@ -90,10 +119,39 @@
     font-size: 22px !important;
   }
 }
+@media only screen and (max-width: 539px) and (min-width: 486px) {
+  .about-me {
+    height: auto !important;
+    caret-color: transparent;
+    background-color: white;
+  }
+  .about-me .bike,
+  .girl {
+    width: 230px;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: end;
+  }
+  .about-me h1 {
+    font-size: 38px !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .about-me p {
+    font-size: 22px !important;
+  }
+}
 
 /*tablets*/
 
 @media only screen and (max-width: 750px) and (min-width: 540px) {
+  .about-me {
+    height: auto !important;
+    caret-color: transparent;
+    background-color: white;
+  }
   .about-me h1 {
     font-size: 48px !important;
     margin-bottom: 0 !important;
@@ -112,7 +170,12 @@
   }
 }
 
-@media only screen and (max-width: 912px) and (min-width: 751px) {
+@media only screen and (max-width: 912px) and (min-width: 750px) {
+  .about-me {
+    height: auto !important;
+    caret-color: transparent;
+    background-color: white;
+  }
   .about-me h1 {
     font-size: 58px !important;
   }
@@ -126,10 +189,16 @@
   }
 }
 @media only screen and (max-width: 1588px) and (min-width: 913px) {
+  .about-me {
+    height: auto !important;
+    caret-color: transparent;
+    background-color: white;
+  }
   .about-me .bike {
     width: 200px !important;
     height: 200px !important;
   }
+
 }
 @media only screen and (max-width: 833px) and (min-width: 744px) {
   .about-me .bike {
@@ -139,43 +208,5 @@
   .about-me .girl {
     width: 200px !important;
     height: 200px !important;
-  }
-}
-@media only screen and (max-width: 539px) and (min-width: 486px) {
-  .about-me .bike,
-  .girl {
-    width: 210px;
-    height: 210px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: end;
-  }
-  .about-me h1 {
-    font-size: 38px !important;
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-  }
-  .about-me p {
-    font-size: 22px !important;
-  }
-}
-@media only screen and (max-width: 375px) and (min-width: 0px) { 
-  .about-me .bike,
-  .girl {
-    width: 230px;
-    height: 230px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-self: end;
-  }
-  .about-me h1 {
-    font-size: 28px !important;
-    margin-bottom: 0 !important;
-    padding-bottom: 0 !important;
-  }
-  .about-me p {
-    font-size: 15px !important;
   }
 }
