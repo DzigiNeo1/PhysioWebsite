@@ -28,14 +28,13 @@ const Footer = () => {
             url="mailto:ljubicasimic771@gmail.com"
             style={{ height: 50, width: 50 }}
           />
+          <div className="copyright ">
+            © 2023 Copyright:
+            <a className="copyright2 text-white" href="/">
+              Ljubica Simic
+            </a>
+          </div>
         </section>
-      </div>
-
-      <div className="text-center p-2  copyright">
-        © 2023 Copyright:
-        <a className=" text-white copyright2" href="/">
-          Ljubica Simic
-        </a>
       </div>
     </footer>
   );
